@@ -1,0 +1,43 @@
+@import url("../styles/header.css");
+@import url("../styles/banner.css");
+@import url("../styles/carrossel.css");
+
+
+@font-face {
+    font-family: "Poppins";
+    src: local('../fonts/Poppins-Light.ttf'); 
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: local('../fonts/Poppins-Regular.ttf');
+    font-weight: 400;
+}
+    
+@font-face {
+    font-family: "Poppins";
+    src: local('../fonts/Poppins-Medium.ttf');
+    font-weight: 500;
+}    
+
+@font-face {
+    font-family: "Poppins";
+    src: local('../fonts/Poppins-Bold.ttf');
+    font-weight: 700;
+}
+
+:root {
+    --cor-de-fundo: #ebecee;
+    --branco: #ffffff;
+    --laranja: #EB9800;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+}
+
+.site {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
