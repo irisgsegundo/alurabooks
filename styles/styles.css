@@ -5,25 +5,29 @@
 
 @font-face {
     font-family: "Poppins";
-    src: local('../fonts/Poppins-Light.ttf'); 
+    src: local('../fonts/poppins-light.woff') format(woff);
+    src: local('../fonts/poppins-light.woff2') format(woff2);
     font-weight: 300;
 }
 
 @font-face {
     font-family: "Poppins";
-    src: local('../fonts/Poppins-Regular.ttf');
+    src: local('../fonts/poppins-regular.woff') format(woff);
+    src: local('../fonts/poppins-regular.woff2') format(woff2);
     font-weight: 400;
 }
     
 @font-face {
     font-family: "Poppins";
-    src: local('../fonts/Poppins-Medium.ttf');
+    src: local('../fonts/poppins-medium.woff') format(woff);
+    src: local('../fonts/poppins-regular.woff2') format(woff2);
     font-weight: 500;
 }    
 
 @font-face {
     font-family: "Poppins";
-    src: local('../fonts/Poppins-Bold.ttf');
+    src: local('../fonts/poppins-bold.woff') format(woff);
+    src: local('../fonts/poppins-regular.woff2') format(woff2);
     font-weight: 700;
 }
 
