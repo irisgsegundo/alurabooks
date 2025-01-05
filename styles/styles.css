@@ -5,29 +5,33 @@
 
 @font-face {
     font-family: "Poppins";
-    src: local('../fonts/poppins-light.woff') format(woff);
-    src: local('../fonts/poppins-light.woff2') format(woff2);
+    src: url('../fonts/poppins-light.woff') format(woff),
+         url('../fonts/poppins-light.woff2') format(woff2),
+         url(https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap);
     font-weight: 300;
 }
 
 @font-face {
     font-family: "Poppins";
-    src: local('../fonts/poppins-regular.woff') format(woff);
-    src: local('../fonts/poppins-regular.woff2') format(woff2);
+    src: url('../fonts/poppins-regular.woff') format(woff),
+         url('../fonts/poppins-regular.woff2') format(woff2),
+         url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
     font-weight: 400;
 }
     
 @font-face {
     font-family: "Poppins";
-    src: local('../fonts/poppins-medium.woff') format(woff);
-    src: local('../fonts/poppins-regular.woff2') format(woff2);
+    src: url('../fonts/poppins-medium.woff') format(woff),
+         url('../fonts/poppins-medium.woff2') format(woff2),
+         url(https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap);
     font-weight: 500;
 }    
 
 @font-face {
     font-family: "Poppins";
-    src: local('../fonts/poppins-bold.woff') format(woff);
-    src: local('../fonts/poppins-regular.woff2') format(woff2);
+    src: url('../fonts/poppins-bold.woff') format(woff),
+         url('../fonts/poppins-bold.woff2') format(woff2),
+         url(https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap);
     font-weight: 700;
 }
 
